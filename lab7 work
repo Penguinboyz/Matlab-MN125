@@ -1,0 +1,11 @@
+StudentNames = {"Wes"; "Kason"; "Nick"};
+MatlabGrade = [90; 85; 88];
+T = table(StudentNames, MatlabGrade);
+
+disp('Original Table:');
+disp(T);
+
+T = renamevars(T, 'MatlabGrade', 'MN125Grade');
+
+disp('New Table:');
+disp(T);
