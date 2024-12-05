@@ -1,0 +1,3 @@
+websave("jsonData",'https://services.swpc.noaa.gov/json/dscovr/dscovr_mag_1s.json')
+jsonData = webread('https://services.swpc.noaa.gov/json/dscovr/dscovr_mag_1s.json'); 
+disp(head(jsonData,3))
