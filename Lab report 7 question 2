@@ -1,0 +1,2 @@
+myames = readtable("https://raw.githubusercontent.com/melindaleung/Ames-Iowa-Housing-Dataset/refs/heads/master/data/ames%20iowa%20housing.csv",VariableNamingRule="preserve");
+disp(head(myames,3));
